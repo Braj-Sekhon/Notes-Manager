@@ -8,7 +8,7 @@ This app embeds the entire file navigation system directly into the interface—
 
 ### How to Run
 
-**Prerequisites:** Windows, Visual Studio with .NET Framework
+**Prerequisites:** Visual Studio with .NET Framework (the full VS, not just VS code — **WINDOWS ONLY**)
 
 **Build & Run:**
 
@@ -24,7 +24,7 @@ This app embeds the entire file navigation system directly into the interface—
 
 ### What I Learned
 
-- Windows Forms GUI development and event-driven programming
-- File I/O operations with `System.IO` (reading, writing, directory traversal)
-- Building custom dropdown menus that recursively display nested folder structures
-- Honest reflection: The "encryption" is really just scrambling with a character offset algorithm — functional for hiding casual text, but NOT cryptographically secure. Real encryption requires established libraries.
+- Windows Forms GUI development.
+- File I/O operations with `System.IO` (reading, writing, directory traversal).
+- Building custom dropdown menus that display nested folder structures.
+- Honest reflection: The "encryption" is really just scrambling with a bunch of mathematical operations — functional for hiding casual text, but NOT cryptographically secure. Real encryption requires established libraries.
