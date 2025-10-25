@@ -4,7 +4,7 @@
 
 A Windows desktop note-taking app built to solve a simple frustration: traditional text editors require navigating through Windows File Explorer every time you want to switch files.
 
-This app embeds the entire file navigation system directly into the interface—browse folders, create nested directories, and switch between notes instantly without leaving the app. Added basic text scrambling for privacy on shared computers.
+This app embeds the entire file navigation system directly into the interface—browse folders, create nested directories, and switch between notes easily without leaving the app. Added basic text scrambling for privacy on shared computers.
 
 ### How to Run
 
@@ -25,6 +25,6 @@ This app embeds the entire file navigation system directly into the interface—
 ### What I Learned
 
 - Windows Forms GUI development.
-- File I/O operations with `System.IO` (reading, writing, directory traversal).
+- File I/O operations (reading, writing, directory traversal).
 - Building custom dropdown menus that display nested folder structures.
 - Honest reflection: The "encryption" is really just scrambling with a bunch of mathematical operations — functional for hiding casual text, but NOT cryptographically secure. Real encryption requires established libraries.
